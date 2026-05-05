@@ -17,7 +17,7 @@ new Swiper('.photo-swiper', { loop: true, allowTouchMove: false, speed: 4000, sp
       update(); setInterval(update, 1000);
     })();
     // Active nav on scroll
-       document.addEventListener("d365mkt-afterformload", 
+     
  (function () {
       var sections = ['top', 'venue'];
       var links = document.querySelectorAll('.nav-links a');
@@ -34,7 +34,7 @@ new Swiper('.photo-swiper', { loop: true, allowTouchMove: false, speed: 4000, sp
         }
       });
     })();
-);
+
 document.addEventListener("d365mkt-afterFormRender", function(event) {
 
   new Swiper('.photo-swiper', {
