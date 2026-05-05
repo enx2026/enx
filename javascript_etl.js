@@ -32,7 +32,6 @@
       });
     })();
 
-
 document.addEventListener("d365mkt-afterFormRender", function(event) {
 
   new Swiper('.photo-swiper', {
