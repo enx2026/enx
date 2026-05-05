@@ -1,6 +1,4 @@
-	  window.addEventListener('DOMContentLoaded', () => {
-  const elements = document.querySelectorAll('.countdown-section');
-  
+
   elements.forEach(el => {
     el.style.display = 'block';
   });
@@ -38,4 +36,4 @@
         }
       });
     })();
-    });
+    
