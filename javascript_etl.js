@@ -1,3 +1,4 @@
+	  window.addEventListener('DOMContentLoaded', () => {
 
   elements.forEach(el => {
     el.style.display = 'block';
@@ -36,4 +37,4 @@
         }
       });
     })();
-    
+     });
