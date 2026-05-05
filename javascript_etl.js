@@ -1,7 +1,6 @@
 	  window.addEventListener('DOMContentLoaded', () => {
 
-
-    new Swiper('.photo-swiper', { loop: true, allowTouchMove: false, speed: 4000, spaceBetween: 20, slidesPerView: 1.15, breakpoints: { 576: { slidesPerView: 1.8, spaceBetween: 20 }, 768: { slidesPerView: 2.4, spaceBetween: 24 }, 992: { slidesPerView: 3, spaceBetween: 28 }, 1200: { slidesPerView: 3.2, spaceBetween: 28 } }, autoplay: { delay: 0, disableOnInteraction: false } });
+new Swiper('.photo-swiper', { loop: true, allowTouchMove: false, speed: 4000, spaceBetween: 20, slidesPerView: 1.15, breakpoints: { 576: { slidesPerView: 1.8, spaceBetween: 20 }, 768: { slidesPerView: 2.4, spaceBetween: 24 }, 992: { slidesPerView: 3, spaceBetween: 28 }, 1200: { slidesPerView: 3.2, spaceBetween: 28 } }, autoplay: { delay: 0, disableOnInteraction: false } });
     new Swiper('.sponsor-swiper', { loop: true, freeMode: true, allowTouchMove: false, speed: 4000, spaceBetween: 40, slidesPerView: 3, breakpoints: { 768: { slidesPerView: 4, spaceBetween: 50 }, 992: { slidesPerView: 5, spaceBetween: 60 }, 1200: { slidesPerView: 6, spaceBetween: 70 } }, autoplay: { delay: 0, disableOnInteraction: false } });
     // Countdown to 2 Dec 2026
     (function () {
@@ -19,7 +18,7 @@
     })();
     // Active nav on scroll
     (function () {
-      var sections = ['top', 'venue'];
+      var sections = ['top', 'programme', 'speakers', 'venue', 'partners', 'become-partner'];
       var links = document.querySelectorAll('.nav-links a');
       window.addEventListener('scroll', function () {
         var pos = window.scrollY + 80;
