@@ -35,7 +35,6 @@ new Swiper('.photo-swiper', { loop: true, allowTouchMove: false, speed: 4000, sp
       });
     })();
 );
-
 document.addEventListener("d365mkt-afterFormRender", function(event) {
 
   new Swiper('.photo-swiper', {
